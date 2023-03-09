@@ -14,7 +14,7 @@ Hourly Median wages, is an estimate of the hourly median wage for a given worker
 
 After cleaning each respective data set, we created two separate python data frames which we chose too work with. One of the data frames was conditioned on the "Detailed" occupation level and the other on the "Broad" occupation level. When we check the shape of each data set we find that the broad data set has a total of 433 observations and the detailed data set has a total of 753 observations. From here we plotted each variable of interest with a histogram too get an idea of the distribution of total employment and hourly median wages when we condition on the granularity of an an occupation class. We find that both have a non-normal right skewed distribution, regardless of the conditional. After plotting histograms we create multiple scatter plots to see if a negative linear relationship exists between total employment and median wages. We find that when plotting total employment and median hourly wages, a very slight negative relationship does exist between the two variables. Further when we control for outliers and take any variable 3 standard deviations above the mean out of each respective data set, the negative linear relationship between total employment and median hourly wages strengthens. Overall this exercise, showed that even under very loose assumptions and subpar aggregate survey data, the labor demand curve is downward sloping.
 
-Repo Link: 
+Repo Link: https://github.com/noahruiz416/Econometrics/tree/main/Labor%20Economics/Labor%20Demand%20OEWS
 
 
 ## Estimating effect of socioeconomic background on post secondary education choice:
@@ -28,11 +28,6 @@ Our data set was from the National Longitudinal Survey of Youth in 1997. The ind
 ### Methodology:
 
 Listed below is the regression equation that we wish to estimate with our data. With this model we hope to capture the impact of an individuals socioeconomic background to see if we can estimate how factors such as Family Household Net Worth, High School GPA’s and more effect a persons secondary college decision. For purpose of brevity we write out each parameter in shorthand form. The first parameter is HHNW or Household Net Worth, it simply measures the total household Net Worth (Assets, Liabilities, Etc) for a given persons household in 1997. In addition we standardized the variable for purposes of computation and to make comparisons between different levels of net worth easier. RFC and RMC are a binary variables that respectively measure whether or not the residential father or mother completed a university level education. FR is a family risk index score. The risk score was created by the NLS, with higher scores indicating a "high risk" family environment for a child. The index score considers factors such as neighborhood safety, child welfare and parental stability. Enriching Environment or EE captures how educationally enriching an individuals environment is, with factors such as technology, access to books and additional tutoring/teaching, considered. A higher EE score corresponds to a more enriching environment. Finally we measure GPA, which is simply the grade point average of an individual during high school years.
-
-Theorized Logistic Regression Equation:
-Pr(Y = 1|X) = exp(β0+β1HHNW+β2RFC+β3RMC+β4FR+β5EE+β6GPA .
-1+exp(β0+β1HHNW+β2RFC+β3RMC+β4FR)+β5EE+β6GPA)
-
 
 ### Regression Results: 
 
