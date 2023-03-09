@@ -1,5 +1,5 @@
 # Econometrics
-Folder Containing all projects related to empirical economics
+Folder Containing all projects related to empirical economics, done for coursework or personal interest. Descriptions of each mini project can be found below!
 
 
 ## OEWS Labor Demand Estimation
