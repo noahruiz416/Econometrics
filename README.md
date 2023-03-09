@@ -2,6 +2,10 @@
 Folder Containing all projects related to empirical economics, done for coursework or personal interest. Descriptions of each mini project can be found below!
 
 
+## Summary Report for Labor Demand Estimation and College Participation Model (Pdf Version):
+
+[ECN_421_HW_1-2.pdf](https://github.com/noahruiz416/Econometrics/files/10928629/ECN_421_HW_1-2.pdf)
+
 ## OEWS Labor Demand Estimation
 
 In this repo I try to estimate labor demand curves based on Bureau of Labor Statistics Occupational Employment and Wage Statistics survey data from a May 2021 industry census report. The data set itself had a wide variety of potential variables, but for simplicity we chose to only focus on Hourly Median Wages and Total Employment Numbers. In addition we conditioned on both "Broad" and "Detailed" occupation levels, where a "Broad" occupation is a basket of similar jobs, and "Detailed" is a granular occupation level.
