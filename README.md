@@ -2,6 +2,12 @@
 Folder Containing all projects related to empirical economics, done for coursework or personal interest. Descriptions of each mini project can be found below!
 
 
+# Current Projects (Last Updated: 3/17/23)
+
+Currently I'm building off the logit model I developed for college partcipation project and instead taking a traditional mathematical modeling approach. This project is relatively new however, I will update this repo as needed. 
+
+With this project We hope to develop a model that will allow us to analyze the effect of government subsidies on college enrollment, labor supply and wages.
+
 ## Summary Report for Labor Demand Estimation and College Participation Model (Pdf Version):
 
 [ECN_421_HW_1-2.pdf](https://github.com/noahruiz416/Econometrics/files/10928629/ECN_421_HW_1-2.pdf)
